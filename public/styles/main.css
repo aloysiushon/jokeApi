@@ -1,0 +1,51 @@
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #5ddcff;
+  font-family: "Titan One", cursive;
+  margin-bottom: 20px;
+}
+
+.card {
+  /* background: url("../images/whisper-img.jpg");
+  background-size: cover;
+  background-position: center; */
+  background-repeat: no-repeat;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  /* color: rgb(88 199 250 / 0%); */
+  font-family: "Gloria Hallelujah", cursive;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+}
+
+.card-title {
+  color: #3c67e3;
+}
+
+.card-text {
+  color: #4e00c2;
+}
